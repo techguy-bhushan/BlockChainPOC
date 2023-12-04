@@ -15,7 +15,7 @@ public class TestChain {
         block2.mineBlock();
         System.out.println(block2);
 
-        Block block3  = new Block("Block 3",block2.getHash());
+        Block block3  = new Block("Block 5",block2.getHash());
         block3.mineBlock();
         System.out.println(block3);
 
